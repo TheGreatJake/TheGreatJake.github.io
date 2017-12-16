@@ -1,0 +1,76 @@
+﻿html {
+width: 100%;
+height: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+body {
+font-family: Geogia;
+color: #EF0606;
+background-color: lightblue;
+margin: 0;
+padding: 0;
+}
+
+.author {
+position: relative;
+left: 600px;
+bottom: 100px;
+color: black;
+}
+
+.summarywriting {
+font-family: Georgia;
+color: black;
+}
+
+.frontimg {
+max-width: 100%;
+height: auto;
+transform: rotate(90deg);
+position: relative;
+top: 100px;
+
+}
+
+.backimg {
+max-width: 100%;
+height: auto;
+transform: rotate(90deg);
+position: relative;
+top: 200px;
+}
+
+.characters {
+
+}
+
+.conclusion {
+color: black;
+position: relative;
+top: 450px;
+}
+
+.creator {
+position: relative;
+top: 500px;
+}
+
+.gametext {
+color: brown;
+}
+
+.navigation {
+background: white;
+border: 1px solid red;
+border-radius: 3px;
+color: red;
+display: inline-block;
+text-decoration: none;
+}
+
+.navigation:hover {
+background: #45089E;
+border: 1px solid red;
+color: white;
